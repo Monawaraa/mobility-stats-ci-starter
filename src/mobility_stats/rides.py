@@ -65,4 +65,3 @@ def filter_long_rides(rides: list[dict[str, Any]], threshold: int = 30) -> list[
         if ride["duration_min"] >= threshold:
             long_rides.append(ride)
     return long_rides
- 
